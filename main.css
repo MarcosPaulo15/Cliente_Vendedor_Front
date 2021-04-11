@@ -1,0 +1,128 @@
+:root{
+
+    --vermelho: #E50914;
+    --preto: #141414;
+   
+    
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;    
+
+            border: solid;
+            background:linear-gradient(rgb(231, 70, 177), rgba(189, 158, 158, 0.4)100%)
+
+}
+
+
+
+
+header .titulo{
+
+   margin-left: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 30px;
+   text-decoration: none;
+   color: var(--preto);
+   font-style: italic;
+}
+
+header nav a{ 
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(49, 49, 47);
+    border-radius: 3px;
+    border: solid;
+    
+
+    
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+
+body .clie{
+
+    margin-left: 80px;
+    margin-right: 260px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+
+}
+
+body .imagem{
+
+    margin-left: 70px;
+
+}
+
+body .img{
+
+    
+    display: flex;
+        
+        align-items: center;
+        justify-content: space-between;
+}
+
+footer .botao {
+    
+    margin-left: 180px;
+    margin-right: 480px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    border-radius: 8px;
+    background:linear-gradient(rgb(190, 180, 187), rgba(189, 158, 158, 0.4)100%);
+    cursor: pointer;
+    transition: 3s ease all;  
+    
+     
+}
+
+
+
+footer .button {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    border-radius: 8px;
+    background:linear-gradient(rgb(190, 180, 187), rgba(189, 158, 158, 0.4)100%);
+    cursor: pointer;
+    transition: 3s ease all;
+    margin-top: 20px;
+    
+}
+     
+
+
+body {
+
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+
+    border: solid;
+    background:linear-gradient(rgb(233, 227, 227), rgba(250, 6, 6, 0.4)100%)
+}
+
+
